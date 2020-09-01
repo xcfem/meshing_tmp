@@ -1,0 +1,13 @@
+f2c -C++ cornp.f
+f2c -C++ sidep.f
+f2c -C++ chrrvc.f
+f2c -C++ jumplp.f
+f2c -C++ pltitm.f
+f2c -C++ pltfnt.f
+f2c -C++ grabrt.f
+f2c -C++ pltgtt.f
+f2c -C++ plticl.f
+f2c -C++ shrunk.f
+f2c -C++ cpubrk.f
+f2c -C++ mpd2sy.f
+f2c -C++ disctp.f
