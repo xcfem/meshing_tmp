@@ -1,3 +1,6 @@
+# Fortran
+# =======
+
 # Prerequisites
 *.d
 
@@ -30,3 +33,15 @@
 *.exe
 *.out
 *.app
+
+# Emacs
+# =====
+
+~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
