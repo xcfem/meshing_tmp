@@ -1,0 +1,16 @@
+TRIBITS_ADD_EXECUTABLE_AND_TEST(
+  Bug7758
+  SOURCES Bug7758.cpp
+  COMM mpi serial
+  FAIL_REGULAR_EXPRESSION "TEST FAILED"
+  PASS_REGULAR_EXPRESSION "TEST PASSED"
+  )
+
+TRIBITS_ADD_EXECUTABLE_AND_TEST(
+  MultiVector_test
+  SOURCES cxx_main.cpp BuildTestProblems.cpp ExecuteTestProblems.cpp
+  ARGS -v
+  COMM mpi serial
+  NUM_MPI_PROCS 1
+  FAIL_REGULAR_EXPRESSION "tests FAILED"
+  )
